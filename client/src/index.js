@@ -4,10 +4,16 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './styles/app.css';
+
 import SubCount from './components/Subscribers'
+import SearchForm from './components/SearchForm'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <SubCount />
+  <>
+    <SearchForm />
+    <SubCount /> 
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

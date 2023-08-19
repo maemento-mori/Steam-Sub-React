@@ -3,16 +3,16 @@ import React from "react";
 const Subscribers = () => {
   const [data, setData] = React.useState(null);
 
-  React.useEffect(() => {
-    setInterval(() => {
-      fetch("/testFetch")
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data.message)
-        console.log(data.message)
-      });
-    },30000)
-  }, []);
+  // React.useEffect(() => {
+  //   setInterval(() => {
+  //     fetch("/testFetch")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setData(data.message)
+  //       console.log(data.message)
+  //     });
+  //   },30000)
+  // }, []);
 
 
   
