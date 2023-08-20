@@ -8,11 +8,13 @@ import './styles/app.css';
 
 import SubCount from './components/Subscribers'
 import SearchForm from './components/SearchForm'
+import Form from './components/Form';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <SearchForm />
-    <SubCount /> 
+    {/* <SearchForm />
+    <SubCount />  */}
+    <Form />
   </>
 );
 
